@@ -1,0 +1,210 @@
+Fri Apr 25 22:54:23 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:54:24 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 22:54:41 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:54:41 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 22:56:29 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:56:29 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 22:58:24 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:58:24 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 22:58:32 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:58:32 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 22:59:04 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 22:59:04 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:00:01 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:00:01 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:01:28 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:01:29 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:02:07 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:02:07 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:02:10 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:02:10 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:02:50 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:02:50 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:03:57 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:03:57 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri Apr 25 23:04:36 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Fri Apr 25 23:06:52 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Sat Apr 26 03:00:23 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 03:00:28 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 14:19:35 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 14:19:47 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 14:20:24 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 14:20:25 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat Apr 26 16:45:15 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Mon Apr 28 13:49:29 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 13:49:34 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:12 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:23 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:25 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:25 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:25 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:26 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:26 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:26 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:26 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:26 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Mon Apr 28 15:12:30 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue Apr 29 15:16:02 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue Apr 29 15:16:11 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue Apr 29 15:16:23 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Wed Apr 30 02:35:03 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 02:36:01 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 02:36:22 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 02:36:46 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 11:35:09 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Wed Apr 30 11:35:09 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 11:35:38 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Wed Apr 30 11:35:38 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Wed Apr 30 11:39:10 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Wed Apr 30 11:39:13 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Wed Apr 30 11:39:18 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 11:04:25 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 11:04:28 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 11:04:28 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 11:04:28 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 12:31:59 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 12:32:14 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Thu May 01 12:39:10 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:41:00 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:42:07 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:44:22 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:47:10 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:48:13 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:55:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:56:48 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:57:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:58:21 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 12:59:20 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 13:00:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Thu May 01 13:00:39 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Fri May 02 17:15:24 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Fri May 02 17:15:47 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Fri May 02 17:15:49 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Fri May 02 17:15:50 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Fri May 02 17:21:52 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Fri May 02 17:22:02 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat May 03 14:30:36 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:30:41 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:31:24 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:32:29 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:37:01 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:38:57 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sat May 03 14:51:23 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sat May 03 23:05:16 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sun May 04 12:09:01 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Sun May 04 15:33:00 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sun May 04 15:33:05 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Sun May 04 22:15:27 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 22:16:11 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 22:16:27 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 22:18:32 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 22:49:46 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 22:49:47 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 23:08:06 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 23:08:47 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Unauthorized user attempt on an admin operation.]
+Sun May 04 23:10:04 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
