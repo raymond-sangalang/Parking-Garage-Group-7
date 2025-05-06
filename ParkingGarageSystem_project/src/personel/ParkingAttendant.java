@@ -12,12 +12,12 @@ public class ParkingAttendant extends User implements Serializable { // implemen
     protected String password;
 
     public ParkingAttendant(String name, String username, String password) {
-    	super("PA" + String.valueOf(++count), password);
-        this.parkingAttendantID = "PA" + String.valueOf(count);
+        super(username, password);
+        this.parkingAttendantID = "PA" + String.valueOf(++count);
         this.name = name;
-//        this.setUsername(this.parkingAttendantID);
-//        this.setPassword("password");
     }
+
+
 
     public void processTicket() {
         Ticket ticket = new Ticket();

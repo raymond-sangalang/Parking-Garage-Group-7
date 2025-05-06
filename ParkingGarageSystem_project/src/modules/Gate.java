@@ -18,4 +18,8 @@ public class Gate implements Serializable  {
 	public void closeGate() {
 		isOpen = false;
 	}
+
+	public boolean isOpen() {
+	    return isOpen;
+	}
 }
