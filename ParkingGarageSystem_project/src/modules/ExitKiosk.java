@@ -11,8 +11,7 @@ public class ExitKiosk implements Serializable {
     private static int count = 0;
     private Gate gate;
     
-    // 1-to-1
-    private ParkingGarage parkingGarage;
+    private ParkingGarage parkingGarage;                  // 1-to-1
     
 
     public ExitKiosk() {
@@ -30,11 +29,9 @@ public class ExitKiosk implements Serializable {
 	public boolean scanTicket(Ticket ticket) {
 		
     	if (ticket != null && ticket.getParkingTicketStatus() == TicketStatus.ACTIVE) {
-    		// log
     		System.out.println("Ticket scanned!");
     		return true;
     	} else {
-    		// log
     		System.out.println("Invalid ticket!");
     		return false;    		
     	}
@@ -45,9 +42,11 @@ public class ExitKiosk implements Serializable {
 	public double scanTicket_toExit(Ticket ticket) {
 		
     	if (ticket != null && ticket.getParkingTicketStatus() == TicketStatus.ACTIVE) {
-    		// log
+    		gate.openGate();
     		FileIO.log("Ticket Scanned!");
     		System.out.println("Ticket scanned!");
+    		parkingGarage.exitParkingGarage();
+    		gate.closeGate();
     		return ticket.calculateFee();
     	} else {
     		
@@ -57,40 +56,41 @@ public class ExitKiosk implements Serializable {
     	}
     }
 
+	
+	
+	// Getters
 	public String getId() {
 		return id;
 	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
 	public Gate getGate() {
 		return gate;
 	}
-
-	public void setGate(Gate gate) {
-		this.gate = gate;
-	}
-	
-	public void openGate() {
-		getGate().openGate();
-	}
-	
-	public void closeGate() {
-		getGate().closeGate();
-	}
-	
-	public String toString() {
-		return getId();
-	}
-
 	public ParkingGarage getParkingGarage() {
 		return parkingGarage;
 	}
-
+	
+	// Setters
+	public void setId(String id) {
+		this.id = id;
+	}
+	public void setGate(Gate gate) {
+		this.gate = gate;
+	}
 	public void setParkingGarage(ParkingGarage parkingGarage) {
 		this.parkingGarage = parkingGarage;
 	}
 	
+	// Gate Operations
+	public void openGate() {
+		getGate().openGate();
+	}
+	public void closeGate() {
+		getGate().closeGate();
+	}
+	
+	
+	
+	public String toString() {
+		return getId();
+	}
 }

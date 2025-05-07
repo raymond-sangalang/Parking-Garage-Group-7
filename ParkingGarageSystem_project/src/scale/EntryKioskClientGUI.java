@@ -25,7 +25,6 @@ public class EntryKioskClientGUI {
 
         this.frame = new JFrame("Entry Kiosk");
 
-
         JButton entryButton = new JButton("Print Ticket");
         this.outputArea = new JTextArea(10, 40);
         outputArea.setEditable(false);
@@ -42,7 +41,6 @@ public class EntryKioskClientGUI {
     }
 
 
-
     private void requestEntry() {
         // event to enter parking garage and to obtain a new ticket
 
@@ -51,13 +49,14 @@ public class EntryKioskClientGUI {
             this.out = new ObjectOutputStream(socket.getOutputStream());
             this.in = new ObjectInputStream(socket.getInputStream());
             
-            
             // request to client handler for the EntryKiosk operations
             out.writeObject("ENTRY");
             
-            // might not actually use 
             this.ticket = (Ticket) in.readObject();
-            outputArea.setText("\tTicket Issued:\nTicket ID: " + ticket.getTicketID() + "\nEntry Time: " + ticket.getEntryTime());
+            if (ticket == null)
+            	outputArea.setText("Ticket is not issued! Garage reached maximum capacity.");
+            else
+            	outputArea.setText("\tTicket Issued:\nTicket ID: " + ticket.getTicketID() + "\nEntry Time: " + ticket.getEntryTime());
         } 
 		catch (IOException e){
 			e.printStackTrace();

@@ -43,18 +43,6 @@ public abstract class ParkingGarageSystem {
 		access_employee_control = new AccessEmployeeControl();
 	}
 	
-	public static Map<Integer, Ticket> getActiveTicketsMap() {
-	    return activeTickets;
-	}
-
-	public static ArrayList<ParkingAttendant> getAttendantsList() {
-	    return attendants;
-	}
-
-	public static ArrayList<Admin> getAdminsList() {
-	    return admins;
-	}
-	
 	
 	// Getter to expose this map through BuildGarage
 	public static synchronized ParkingGarage getGarage(Address address) throws ParkingExceptions {
@@ -138,7 +126,7 @@ public abstract class ParkingGarageSystem {
 		
 	}
 	
-    public Ticket issueTicket() {
+    public Ticket issueTicket() throws ParkingExceptions {
 
     	
         Ticket ticket = parkingGarage.getEntryKiosk().printTicket();
