@@ -34,12 +34,10 @@ public class ParkingGarageServer {
         	Socket client = serverSocket.accept();
             new Thread(new ClientHandler(client, garage)).start();
         }
-    	
     }
 
     
     public static void main(String[] args) throws IOException, ParkingExceptions {
-
     	
     	ParkingGarageSystem buildGarage = new BuildParkingGarage();
     	ParkingGarage pGarage = null;
@@ -50,10 +48,8 @@ public class ParkingGarageServer {
     	pGarage = (ParkingGarage) FileIO.readGarageObject(serializedGarage);
     	System.out.println(pGarage.getAddress());
         
-        new ParkingGarageServer(pGarage);
-        
+        new ParkingGarageServer(pGarage);  
     }
-
 }
 
 
@@ -92,45 +88,40 @@ class ClientHandler implements Runnable {
             if (request.equals("ENTRY")) {
                 // In response to a request to enter from entrykiosk
                 // create a new ticket for client and use parking garage's entry kiosk
-            	System.out.println("ClientHandlers run() if ENTRY");
-            	
-            	Ticket ticket = parkingGarage.getEntryKiosk().printTicket();
-       
-                // Save all active tickets in hashmap
-                tickets.put(Integer.valueOf(ticket.getTicketID()), ticket);
+            	try {
 
-//                for (Integer key : tickets.keySet()) 
-//                    System.out.println(String.format("Key: %2d, Ticket: %s", key, tickets.get(key)));
-                
-                out.writeObject(ticket);
-                FileIO.log("ENTRY: Ticket " + ticket.getTicketID() + " issued at " + ticket.getEntryTime());
+            		Ticket ticket = parkingGarage.enterParkingGarage();
+            		parkingGarage.decrementAvailablity();
+                    // Save all active tickets in hashmap and update numAvailability
+                    tickets.put(Integer.valueOf(ticket.getTicketID()), ticket);
+                    
+                    out.writeObject(ticket);
+                    FileIO.log("ENTRY: Ticket " + ticket.getTicketID() + " issued at " + ticket.getEntryTime());
+                    
+            	} catch(ParkingExceptions e) {
+            		e.printmyproblem();
+            		out.writeObject(null);
+            	}
+       
+
             } 
             else if (request.equals("EXIT")) {
                 // In response to a request to exit from exitKiosk
                 //  - remove clients ticket from hashmap, then use 
                 //  - ticket to calculate total fee for the clients payment
-            	
-            	
-            	System.out.println("ClientHandlers run() if EXIT");
-            	System.out.println(parkingGarage.getExitKiosk());
-            	
-            	// obtain ticketId
-                int ticketId = in.readInt();
+ 
+                int ticketId = in.readInt();                         // obtain ticketId
                 Ticket ticket_to_exit = null;
                 
-                
-                // match with tickets in system
-                if (tickets.containsKey(ticketId)) {
+                if (tickets.containsKey(ticketId))                   // match with tickets in system
                 	ticket_to_exit = tickets.remove(ticketId);
-                }
-                
+                                 
                 if (!FixScale.isValidTicket(ticket_to_exit)) {
                 	// Ticket is invalid - input error
                 	out.writeObject("Invalid or already used ticket.");
                 	throw new ParkingExceptions(3);
                 }        
 
-                
                 // Ticket is validated
                 double parkingFee = parkingGarage.getExitKiosk().scanTicket_toExit(ticket_to_exit);
                 if (parkingFee != -1) {
@@ -144,15 +135,13 @@ class ClientHandler implements Runnable {
             
                 // ticket payment settled, change its status, and update parking garage capacity
                 ticket_to_exit.setPaid();
-                
+                parkingGarage.incrementAvailability();
                 
                 long minutes = Duration.between(ticket_to_exit.getEntryTime(), LocalDateTime.now()).toMinutes();
                 
                 String result = String.format("\n\tTotal time: %2d minutes\n\tParking Rate: $3 per hour\n\tParking Fee: %.2f", minutes, parkingFee);
                 out.writeObject(result);
                 FileIO.log("EXIT: Ticket " + ticketId + " exited. " + result);
-
-                // Print Balance Due: $
             }
         } 
         catch (ParkingExceptions e) {
@@ -162,9 +151,6 @@ class ClientHandler implements Runnable {
             e.printStackTrace();
             FileIO.log("Error: " + e.getMessage());
         }
-
     }
-    
-
 
 }

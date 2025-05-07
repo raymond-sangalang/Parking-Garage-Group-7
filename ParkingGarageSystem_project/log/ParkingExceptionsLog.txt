@@ -36,3 +36,79 @@ Mon May 05 23:37:35 PDT 2025,
 ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
 Mon May 05 23:42:19 PDT 2025,	
 ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 12:58:35 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 19:29:59 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 19:29:59 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
+Tue May 06 19:30:20 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:20 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:20 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:23 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:30:33 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue May 06 19:30:37 PDT 2025,	
+ParkingExceptions [errorno= 3, errormsg= Invalid or already used ticket.]
+Tue May 06 19:34:55 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:36:16 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 19:36:16 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
+Tue May 06 19:36:37 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 19:36:37 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
+Tue May 06 19:37:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:37:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:37:22 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:52:59 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 19:52:59 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 19:52:59 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
+Tue May 06 19:53:08 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:53:09 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:53:09 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:53:42 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:53:42 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 19:53:42 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]

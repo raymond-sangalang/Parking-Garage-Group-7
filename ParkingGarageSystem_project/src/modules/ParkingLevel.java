@@ -1,11 +1,9 @@
 package modules;
 
 import java.util.*;
-
 import exception.FixModel;
 import exception.ParkingExceptions;
 import util.FileIO;
-
 import java.io.Serializable;
 
 
@@ -16,14 +14,12 @@ public class ParkingLevel implements Serializable {
 	private int id;
 	private int levelNumber;
 	
-	private int num_spaces;                    // ArrayList.size()
+	private int num_spaces;                  
 	private ArrayList<ParkingSpace> parkingSpaces;
 	private LevelDisplayBoard floorDisplayBoard;
 	
 	public void updateDisplayBoard() {
-		floorDisplayBoard.displayNumFreeSpaces();
-		// updates ~ in freeSpaces, addParkingSpace, and 
-		
+		floorDisplayBoard.displayNumFreeSpaces();	
 	}
 	
 	
@@ -82,11 +78,6 @@ public class ParkingLevel implements Serializable {
 
 
 	// setters
-//	public void setParkingSpaces(ArrayList<ParkingSpace> parkingSpaces) {
-//		this.parkingSpaces = parkingSpaces;
-////		for (int index = 0; index < parkingSpaces.size(); index++)
-////			this.parkingSpaces[index] = parkingSpaces[index];
-//	}
 	
 	public void setLevelNumber(int levelNumber) throws ParkingExceptions {
 		if (!FixModel.isValidInteger(levelNumber))
@@ -140,6 +131,7 @@ public class ParkingLevel implements Serializable {
 			floorDisplayBoard.leaveSpace();
 		}
 	}
+	
 	public boolean freeOccupiedSpace() {
 		for (ParkingSpace space : parkingSpaces)
 			if (space.isOccupied()) {
@@ -158,14 +150,7 @@ public class ParkingLevel implements Serializable {
 				+ "\n\tList of parking spaces\n\t______________________\n";
 		for (ParkingSpace space : parkingSpaces)
 			ls += space;
-			
-		
 		return ls;
 	}
 
-	
-
-
-
-	
 }

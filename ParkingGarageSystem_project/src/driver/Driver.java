@@ -19,7 +19,6 @@ public class Driver {
 			// 1st parking garage
 			Address address1 = new Address("8474 Nicolls St.", "Huntsville", "AL", "35803");
 			buildGarage.BuildGarage(address1, 5, 5);
-
 			
 			//  2nd parking garage
 			Address address2 = new Address("98 East St Margarets Drive", "Winter Park", "FL", "32792");

@@ -7,6 +7,7 @@
 module ParkingGarageSystem_project {
 	requires java.desktop;
 	requires org.junit.jupiter.api;
+	requires org.junit.platform.suite.api;
 }
 
 //  FileIO:

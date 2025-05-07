@@ -2,6 +2,8 @@ package modules;
 
 import java.io.Serializable;
 
+import exception.ParkingExceptions;
+
 
 public class EntryKiosk implements Serializable {
 	
@@ -26,16 +28,12 @@ public class EntryKiosk implements Serializable {
     }
 
     
-    public synchronized Ticket printTicket() {
+    public synchronized Ticket printTicket() throws ParkingExceptions {
     	// create new ticket for client, update Garages capacity and hardware devices.
     	// Return Ticket
-    	System.out.println(String.format("In entrykiosk, numAvailable%d", parkingGarage.getNumAvailable()));
-    	Ticket ret_ticket = new Ticket();
-    	gate.openGate();
-    	parkingGarage.decrementAvailablity();
-    	
+
+    	Ticket ret_ticket = new Ticket(); 
     	gate.closeGate();
-    	System.out.println(String.format("Ending entrykiosk, numAvailable%d", parkingGarage.getNumAvailable()));
 		return ret_ticket;
     }
 
