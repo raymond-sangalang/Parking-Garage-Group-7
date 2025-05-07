@@ -6,12 +6,6 @@ import java.time.LocalTime;
 import java.util.Date;
 
 
-enum TicketStatus {
-	ACTIVE, 
-	PAID
-}
-
-
 
 
 public class Ticket implements Serializable {
@@ -32,11 +26,12 @@ public class Ticket implements Serializable {
 
 	public double calculateFee() {
 		this.setPayoutTime(LocalTime.now());
-		Duration duration = Duration.between(payoutTime, issuedTime);
+		Duration duration = Duration.between(issuedTime, payoutTime);
 		long minutes = duration.toMinutes();
 //		Charge is set at $3 per hour, 0.05 per minute
 		double rate = 0.05;
 		this.setTotalCharge(rate * minutes);
+		System.out.println(totalCharge);
 		//this.setParkingTicketStatus(TicketStatus.PAID);
 		return this.totalCharge;
 
