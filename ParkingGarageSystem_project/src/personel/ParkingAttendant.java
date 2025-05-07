@@ -8,7 +8,7 @@ public class ParkingAttendant extends User implements Serializable { // implemen
     protected String parkingAttendantID;
     protected static int count = 0;
     protected String name;
-    protected String username;
+//    protected String username;
     protected String password;
 
     public ParkingAttendant(String name, String username, String password) {

@@ -1,5 +1,6 @@
 package testing;
 
+import exception.ParkingExceptions;
 import modules.ParkingLevel;
 import modules.ParkingSpace;
 import org.junit.jupiter.api.BeforeEach;
@@ -74,6 +75,32 @@ public class ParkingLevelTest {
         ParkingSpace s1 = level.getParkingSpaces().get(0);
         ParkingSpace s2 = level.getParkingSpace(s1);
         assertSame(s1, s2);
+    }
+
+    @Test
+    public void testSetLevelNumberValid() throws ParkingExceptions {
+        level.setLevelNumber(5);
+        assertEquals(5, level.getLevelNumber());
+    }
+
+    @Test
+    public void testSetLevelNumberThrowsOnNegative() {
+        assertThrows(ParkingExceptions.class, () -> level.setLevelNumber(-1));
+    }
+
+    @Test
+    public void testFreeSpaceByNumberFreesSlot() {
+        ParkingSpace s = level.occupyAvailableSpace();
+        int num = s.getSpace_number();
+        level.freeSpace(num);
+        assertFalse(s.isOccupied());
+    }
+
+    @Test
+    public void testFreeSpaceByReferenceFreesSlot() {
+        ParkingSpace s = level.occupyAvailableSpace();
+        level.freeSpace(s);
+        assertFalse(s.isOccupied());
     }
 
     @Test

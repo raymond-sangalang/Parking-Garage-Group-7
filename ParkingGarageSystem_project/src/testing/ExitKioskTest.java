@@ -18,10 +18,13 @@ public class ExitKioskTest {
     ExitKiosk kiosk;
     Ticket activeTicket;
     Ticket inactiveTicket;
+    ParkingGarage garage;
 
     @BeforeEach
-    public void setup() {
+    public void setup() throws ParkingExceptions {
         kiosk = new ExitKiosk();
+        garage = new ParkingGarage(2, 2);
+        kiosk.setParkingGarage(garage);
         activeTicket = new Ticket();
         inactiveTicket = new Ticket();
         inactiveTicket.setParkingTicketStatus(TicketStatus.PAID);

@@ -38,21 +38,21 @@ public class ParkingGarageTest {
 
     @Test
     public void testAddSpacesToLevel() {
-    	int before = garage
-    		    .getParkingLevels()
-    		    .get(0)
-    		    .getFloorDisplayBoard()
-    		    .getFreeSpaces();
+        int before = garage
+                .getParkingLevels()
+                .get(0)
+                .getFloorDisplayBoard()
+                .getFreeSpaces();
 
-    		garage.addSpaces_toLevel(1, 2);
+        garage.addSpaces_toLevel(1, 2);
 
-    		int after = garage
-    		    .getParkingLevels()
-    		    .get(0)
-    		    .getFloorDisplayBoard()
-    		    .getFreeSpaces();
+        int after = garage
+                .getParkingLevels()
+                .get(0)
+                .getFloorDisplayBoard()
+                .getFreeSpaces();
 
-    		assertEquals(before + 2, after);
+        assertEquals(before + 2, after);
     }
 
     @Test
@@ -66,7 +66,6 @@ public class ParkingGarageTest {
 
     @Test
     public void testEnterParkingGarageThrowsIfFull() {
-        // first fill up the garage
         try {
             for (int i = 0; i < 4; i++) {
                 garage.enterParkingGarage();
@@ -74,11 +73,8 @@ public class ParkingGarageTest {
         } catch (ParkingExceptions e) {
             fail("Should not have thrown while filling up: " + e.getMessage());
         }
-
-        // now it’s full, so the next call must throw
         assertThrows(ParkingExceptions.class, () -> garage.enterParkingGarage());
     }
-
 
     @Test
     public void testExitParkingGarageIncrementsAvailability() throws ParkingExceptions {

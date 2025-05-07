@@ -4,11 +4,9 @@ import adapter.ParkingGarageSystem;
 import modules.Ticket;
 import personel.Admin;
 import personel.ParkingAttendant;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Map;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -70,5 +68,17 @@ public class ParkingGarageSystemTest {
         int after = ParkingGarageSystem.getAdminsList().size();
         assertEquals(before + 1, after);
         assertTrue(ParkingGarageSystem.getAdminsList().contains(admin));
+    }
+
+    @Test
+    public void testValidateUserCredentialsReturnsTrueForValidUser() {
+        Admin admin = new Admin("ValidAdmin");
+        system.addAdmin(admin);
+        assertTrue(system.validateUserCredentials(admin.getAdminID(), "admin123"));
+    }
+
+    @Test
+    public void testValidateUserCredentialsReturnsFalseForInvalidUser() {
+        assertFalse(system.validateUserCredentials("invalidUser", "wrongpass"));
     }
 }

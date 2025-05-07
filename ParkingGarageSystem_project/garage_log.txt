@@ -96,3 +96,62 @@
 	Total time:  0 minutes
 	Parking Rate: $3 per hour
 	Parking Fee: 0.00
+2025-05-06T20:07:25.663503 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:07:25.665183 - Ticket Scanned!
+2025-05-06T20:07:25.667642 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:09:58.385483 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:09:58.386815 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:09:58.389436 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:41:55.479662 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:41:55.481327 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T20:41:55.484011 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T21:12:47.662823 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T21:12:47.664185 - Ticket Scanned!
+2025-05-06T21:12:47.665900 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T21:21:35.500980 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T21:21:35.501686 - Ticket Scanned!
+2025-05-06T21:21:35.503744 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T22:43:30.782469 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-06T22:43:30.783308 - Ticket Scanned!
+2025-05-06T22:43:30.785083 - Invalid or used ticket! <   max clients credit options (=   >
+2025-05-07T00:20:41.420821 - Parking Garage Server started on port: 12345
+2025-05-07T00:20:46.250316 - ENTRY: Ticket 1 issued at 00:20:46.246781
+2025-05-07T00:20:46.539905 - ENTRY: Ticket 2 issued at 00:20:46.539244
+2025-05-07T00:20:46.676984 - ENTRY: Ticket 3 issued at 00:20:46.675774
+2025-05-07T00:20:46.826748 - ENTRY: Ticket 4 issued at 00:20:46.825745
+2025-05-07T00:20:46.975347 - ENTRY: Ticket 5 issued at 00:20:46.974319
+2025-05-07T00:20:47.094627 - ENTRY: Ticket 6 issued at 00:20:47.093679
+2025-05-07T00:20:47.246346 - ENTRY: Ticket 7 issued at 00:20:47.245053
+2025-05-07T00:20:47.410566 - ENTRY: Ticket 8 issued at 00:20:47.409433
+2025-05-07T00:20:47.532857 - ENTRY: Ticket 9 issued at 00:20:47.531628
+2025-05-07T00:20:48.224441 - ENTRY: Ticket 10 issued at 00:20:48.221234
+2025-05-07T00:20:48.431845 - ENTRY: Ticket 11 issued at 00:20:48.430308
+2025-05-07T00:20:48.726293 - ENTRY: Ticket 12 issued at 00:20:48.725141
+2025-05-07T00:20:48.866962 - ENTRY: Ticket 13 issued at 00:20:48.865790
+2025-05-07T00:20:49.030853 - ENTRY: Ticket 14 issued at 00:20:49.029823
+2025-05-07T00:20:49.783080 - ENTRY: Ticket 15 issued at 00:20:49.781992
+2025-05-07T00:20:49.906157 - ENTRY: Ticket 16 issued at 00:20:49.904569
+2025-05-07T00:20:50.054846 - ENTRY: Ticket 17 issued at 00:20:50.053733
+2025-05-07T00:20:50.189966 - ENTRY: Ticket 18 issued at 00:20:50.188665
+2025-05-07T00:20:50.307638 - ENTRY: Ticket 19 issued at 00:20:50.306581
+2025-05-07T00:20:50.653302 - ENTRY: Ticket 20 issued at 00:20:50.652265
+2025-05-07T00:20:50.790357 - ENTRY: Ticket 21 issued at 00:20:50.789408
+2025-05-07T00:20:50.938832 - ENTRY: Ticket 22 issued at 00:20:50.937582
+2025-05-07T00:20:51.074042 - ENTRY: Ticket 23 issued at 00:20:51.073141
+2025-05-07T00:20:51.189433 - ENTRY: Ticket 24 issued at 00:20:51.188454
+2025-05-07T00:20:51.310153 - ENTRY: Ticket 25 issued at 00:20:51.309128
+2025-05-07T00:20:59.308821 - Ticket Scanned!
+2025-05-07T00:20:59.311627 - EXIT: Ticket 3 exited. 
+	Total time:  0 minutes
+	Parking Rate: $3 per hour
+	Parking Fee: 0.00
+2025-05-07T00:21:04.123434 - Ticket Scanned!
+2025-05-07T00:21:04.126103 - EXIT: Ticket 4 exited. 
+	Total time:  0 minutes
+	Parking Rate: $3 per hour
+	Parking Fee: 0.00
+2025-05-07T00:21:11.978640 - Ticket Scanned!
+2025-05-07T00:21:11.980707 - EXIT: Ticket 5 exited. 
+	Total time:  0 minutes
+	Parking Rate: $3 per hour
+	Parking Fee: 0.00
