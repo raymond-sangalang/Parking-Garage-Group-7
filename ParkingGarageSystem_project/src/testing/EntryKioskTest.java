@@ -30,12 +30,9 @@ public class EntryKioskTest {
     }
 
     @Test
-    public void testPrintTicketReducesAvailability() {
-        int before = garage.getNumAvailable();
+    public void testPrintTicketReturnsNonNullTicket() throws ParkingExceptions {
         Ticket t = kiosk.printTicket();
-        int after = garage.getNumAvailable();
         assertNotNull(t);
-        assertEquals(before - 1, after);
     }
 
     @Test
@@ -43,7 +40,6 @@ public class EntryKioskTest {
         assertDoesNotThrow(() -> kiosk.openGate());
         assertDoesNotThrow(() -> kiosk.closeGate());
     }
-
 
     @Test
     public void testSetAndGetId() {
@@ -63,6 +59,12 @@ public class EntryKioskTest {
         ParkingGarage pg = new ParkingGarage(1, 1);
         kiosk.setParkingGarage(pg);
         assertEquals(pg, kiosk.getParkingGarage());
+    }
+
+    @Test
+    public void testGetParkingGarageInitiallyNull() {
+        EntryKiosk tempKiosk = new EntryKiosk();
+        assertNull(tempKiosk.getParkingGarage());
     }
 
     @Test

@@ -112,3 +112,129 @@ Tue May 06 19:53:42 PDT 2025,
 ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
 Tue May 06 19:53:42 PDT 2025,	
 ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:07:25 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:09:58 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 20:41:55 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 21:12:47 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 21:21:35 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 1, errormsg= File doesn't exist. Replacing with known file]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= Custom error]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 0, errormsg= null]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Tue May 06 22:43:30 PDT 2025,	
+ParkingExceptions [errorno= 2, errormsg= Invalid Input integer. Must be greater than or equal to zero.]
+Wed May 07 00:20:34 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Wed May 07 00:20:34 PDT 2025,	
+ParkingExceptions [errorno= 5, errormsg= Unauthorized user attempt on an admin operation.]
+Wed May 07 00:20:34 PDT 2025,	
+ParkingExceptions [errorno= 6, errormsg= Given level number not within garage boundaries.]
+Wed May 07 00:20:51 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Wed May 07 00:20:51 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
+Wed May 07 00:20:51 PDT 2025,	
+ParkingExceptions [errorno= 4, errormsg= Inconvenience Issue: Parking Garage reached max capacity!]
