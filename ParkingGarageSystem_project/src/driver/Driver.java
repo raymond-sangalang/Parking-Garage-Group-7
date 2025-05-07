@@ -3,9 +3,10 @@ import modules.*;
 import personel.Admin;
 import adapter.*;
 import java.io.IOException;
-
 import exception.*;
-import util.FileIO;
+
+
+
 
 public class Driver {
 
@@ -18,7 +19,8 @@ public class Driver {
 			
 			// 1st parking garage
 			Address address1 = new Address("8474 Nicolls St.", "Huntsville", "AL", "35803");
-			buildGarage.BuildGarage(address1, 5, 5);
+			buildGarage.BuildGarage(address1, 1, 1);
+
 			
 			//  2nd parking garage
 			Address address2 = new Address("98 East St Margarets Drive", "Winter Park", "FL", "32792");
@@ -78,6 +80,9 @@ public class Driver {
 				System.out.println("admin2 logged in");
 			else
 				System.out.println("admin2 not logged in");
+			
+			
+			
 			
 			
 		} catch(ParkingExceptions e) {

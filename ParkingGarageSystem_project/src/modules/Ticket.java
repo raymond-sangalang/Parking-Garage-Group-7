@@ -5,8 +5,10 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.Date;
 
-
-
+enum TicketStatus {
+	ACTIVE, 
+	PAID
+}
 
 public class Ticket implements Serializable {
 	
