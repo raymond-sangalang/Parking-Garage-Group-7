@@ -1,42 +1,86 @@
 # Parking Garage Management System
 
 ## Overview
-The Parking Garage Management System is a Java-based multithreaded application that manages vehicle entry, ticketing, payment processing, and exit operations across multiple parking garages. It supports role-based employee login, GUI interaction via socket communication, and structured reporting features.
+The Parking Garage Management System is a Java-based multithreaded application designed to manage vehicle entry, ticketing, payments, and exit operations across one or more parking garages. The system integrates gate simulation, employee login, client-server socket communication, and GUI-based interaction.
 
 ## Features
-- Entry and exit kiosk simulation
-- Ticket generation with time-based fee calculation
-- Manual and automated payment handling
-- Admin-controlled garage configuration
-- Multi-garage and multi-level management
-- TCP/IP socket-based client-server communication
-- GUI for client operations
-- Employee login with credential validation
-- JUnit 5 testing suite
+- Ticket generation at entry kiosks
+- Fee calculation based on parking duration
+- Manual and automated payment processing
+- Entry and exit gate control
+- Role-based login for Admin and Parking Attendant
+- Multi-garage and multi-level support
+- GUI client communicating with server over TCP/IP
+- System logging and data persistence using serialization
+- JUnit 5 test suite for all core modules
 
-## Modules
-- `modules/`: Core entities (Ticket, Payment, Gate, ParkingGarage, etc.)
-- `adapter/`: System interface for building and retrieving garages
-- `driver/`: Initialization and admin testing logic
-- `scale/`: Server-side logic including `ParkingGarageServer` and `ClientHandler`
-- `personel/`: Employee classes like `Admin` and `ParkingAttendant`
-- `util/`: Utilities for logging and file I/O
-- `testing/`: JUnit 5 test classes
-
-## Technologies
+## Technologies Used
 - Java 11+
 - Java Sockets (TCP/IP)
 - Java Serialization
-- Swing (for GUI)
+- Swing (GUI)
 - JUnit 5
 
-## Getting Started
+## Project Structure
+  adapter/ # BuildParkingGarage interface and implementation
+  driver/ # Driver class to set up garages and admins
+  modules/ # Core system components (Ticket, Payment, Gate, etc.)
+  personel/ # Admin and ParkingAttendant classes
+  scale/ # Server and ClientHandler (handles requests)
+  util/ # FileIO utilities and logging
+  testing/ # JUnit 5 test classes
+  log/ # Serialized garage objects and logs
 
-### 1. Compile the Project
-Compile all Java files or build the project in your IDE (e.g., Eclipse, IntelliJ).
 
-### 2. Run the Server
-Make sure the garage object is serialized using `Driver.java` once. Then:
+## How to Run
 
-```bash
-Run ParkingGarageServer.java
+### 1. Initialize Garages (First Time Only)
+If you are running the system for the first time and need to set up garages:
+
+- Run `Driver.java`  
+  This will create garages, parking levels, and admins, and serialize them.
+
+### 2. Start the Server
+Once garage data is available:
+
+- Run `ParkingGarageServer.java`  
+  This reads the garage object from file and starts the server on port `12345`.
+
+### 3. Start the Client
+In a separate terminal or process:
+
+- Run `Client.java`  
+  This connects to the server and presents the GUI or CLI to the user.
+
+## Login Credentials
+- Admins are created in `Driver.java` and auto-assigned default usernames and passwords.
+- Example:
+  - Username: `A1` (Admin ID)
+  - Password: `adminpass`
+
+- For Parking Attendants (if implemented similarly):
+  - Username: `PA1`
+  - Password: `password`
+
+## Testing
+JUnit 5 tests are provided in the `testing/` directory.
+
+To run all tests:
+
+- Open `AllTests.java`
+- Right-click > Run As > JUnit Test (in Eclipse)
+
+Each test targets a specific module (e.g., `DVDTest`, `DVDCollectionTest`) and validates expected behaviors.
+
+## Authors
+- Vishal Vasanthakumar Poornima
+- Kurt
+- Raymond
+
+## Notes
+- All data is serialized to the `/log` folder.
+- Manual ticket creation and payment handling are available to Parking Attendants.
+- GUI implementation may vary depending on deployment (Swing, console-based, etc.).
+
+## License
+This project is for academic use only and not intended for commercial deployment and will not be maintained due to various reasons.
