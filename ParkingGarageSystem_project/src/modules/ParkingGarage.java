@@ -96,7 +96,9 @@ public class ParkingGarage implements Serializable{
 	
 	
 	public void addParkingLevel(int numSpacesPerLevel) {
-		// update count of levels variable
+		//  addParkingLevel: adds a new element in the 
+		// Parking Level Array List and updates
+		// the appropriate variables
 		
 		int newLevelNum = getNumLevels() + 1;
 		try {
@@ -111,7 +113,8 @@ public class ParkingGarage implements Serializable{
 	}
 	
 	public synchronized void addSpaces_toLevel(int parkingLevel, int spaces_to_add) {
-	
+		// addSpaces_toLevel: locates the given ParkingLevel by 
+		//                    the level number and adds on to parking spaces
 		ParkingLevel temp = null;
 		for (ParkingLevel level : parkingLevels) 
 			if ( (temp=level).getLevelNumber()  ==  parkingLevel ) 
@@ -123,12 +126,13 @@ public class ParkingGarage implements Serializable{
 	
 	
 	public Ticket enterParkingGarage() throws ParkingExceptions {
-		// return a new ticket and utilize entryKiosk
+		// enterParkingGarage: return a new ticket and utilize entryKiosk
 		
 		// if parking is full
 		if (!FixModel.isParkingAvailable(getNumAvailable()))
 			throw new ParkingExceptions(4);
 		
+		// open gate when spaces are available
 		entryKiosk.openGate();
 
 		// find first available spot
