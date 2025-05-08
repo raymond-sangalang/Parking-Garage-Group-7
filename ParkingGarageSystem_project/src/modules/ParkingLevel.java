@@ -48,6 +48,9 @@ public class ParkingLevel implements Serializable {
 	}
 
 	public ParkingSpace getParkingSpaceByNum(int spaceNum) {
+		// iterates through the parkingspace array list
+		// and locate the space with the specified space number
+		//
 		
 		for (ParkingSpace space : parkingSpaces)
 			if (space.getSpace_number()==spaceNum)
@@ -56,6 +59,8 @@ public class ParkingLevel implements Serializable {
 	}
 	
 	public ParkingSpace getParkingSpace(ParkingSpace _space) {
+		// getParkingSpace: iterates through the parkingspace array list
+		// and locate the ParkingSpace argument
 		
 		for (ParkingSpace space : parkingSpaces)
 			if (space == _space)
@@ -68,9 +73,12 @@ public class ParkingLevel implements Serializable {
 		// set status to occupy
 		// returns ParkingSpace : if ticket may want to reference a space
 		// cond: throw LevelUnavailableException
+		// update the level display board 
+		
 		for (ParkingSpace space : parkingSpaces)
 			if (!space.isOccupied()) {
 				space.setOccupiedSpace();
+				floorDisplayBoard.occupySpace();
 				return space;
 			}
 		return null;
@@ -103,6 +111,8 @@ public class ParkingLevel implements Serializable {
 	}
 	
 	public void freeSpace(int spaceNumber) {
+		// locates parking space by parking space number
+		// and attempts to unoccupy space
 		
 		ParkingSpace space;
 		if ((space = this.getParkingSpaceByNum(spaceNumber))==null)
@@ -119,9 +129,13 @@ public class ParkingLevel implements Serializable {
 	}
 	
 	public void freeSpace(ParkingSpace _space) {
+		// locates parking space by parking reference
+		// and attempts to unoccupy space
+		
 		ParkingSpace space;
 		if ((space = this.getParkingSpace(_space)) == null)
-			space.setFreeSpace();
+			return;
+		
 		if (!space.isOccupied()) {
 			FileIO.log("Error: Parking space is already free to park.");
 			System.out.println("Error: Parking space is already free to park.");
@@ -133,9 +147,13 @@ public class ParkingLevel implements Serializable {
 	}
 	
 	public boolean freeOccupiedSpace() {
+		// iterates through parkingSpace array list and 
+		// locates a available space to occupy
+		
 		for (ParkingSpace space : parkingSpaces)
 			if (space.isOccupied()) {
 				space.setFreeSpace();
+				floorDisplayBoard.leaveSpace();
 				return true;
 			}
 		return false;

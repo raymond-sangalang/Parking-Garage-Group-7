@@ -11,7 +11,7 @@ import java.util.Date;
 public class ParkingExceptions extends Exception{	
 	/* ParkingException​ ​is the custom exception handler for the application to keep track of errors that occur
        throughout runtime. 
-       ParkingException implementation of fix method towards the model page Fix1to100, which can be used for fixing any
+       ParkingException implementation of fix method towards the module, which can be used for fixing any
 	   exception in entire application. Helper classes to delegate fixes for each method in addition to extension of
 	   Exception. */
 	
@@ -113,6 +113,8 @@ public class ParkingExceptions extends Exception{
 	}
 	
 	public void fix(int errno) {
+		// fix: given an error number
+		//      sets the exception message
 		
 		switch (errno)
 		{
@@ -136,6 +138,11 @@ public class ParkingExceptions extends Exception{
 				setErrormsg("Given level number not within garage boundaries.");
 				break;
 			case 7:
+				setErrormsg("Zip code must be length of 5 digits.");
+				break;
+			case 8:
+				setErrormsg("State must be a 2 letter state code.");
+				break;
 				
 				
 		}
